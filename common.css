@@ -1,0 +1,455 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProBlack.woff') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProBlack-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProBlack-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaPro-Bold.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaPro-BoldItalic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: url('./transfonter.org-20240815-150952/SofiaProExtraLight.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: url('./transfonter.org-20240815-150952/SofiaProExtraLight-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProExtraLight-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProLight.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProLight-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProMedium.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../transfonter.org-20240815-150952/SofiaProMedium-Italic.woff2') format('woff2'),
+        url('../transfonter.org-20240815-150952/SofiaProMedium-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./transfonter.org-20240815-150952/SofiaProRegular.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: url('./transfonter.org-20240815-150952/SofiaProUltraLight.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProUltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('./transfonter.org-20240815-150952//SofiaProSemiBold.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProSemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: sofia pro;
+    src: url('./transfonter.org-20240815-150952/SofiaProRegular-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProRegular-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: url('./transfonter.org-20240815-150952/SofiaProUltraLight-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProUltraLight-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: url('./transfonter.org-20240815-150952/SofiaProSemiBold-Italic.woff2') format('woff2'),
+        url('./transfonter.org-20240815-150952/SofiaProSemiBold-Italic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+.hb_flex {
+    display: flex;
+}
+.end_line {
+    border: 1px solid #DDE7F3;
+}
+.link {
+    text-decoration: none;
+    color: #2F63A6;
+}
+.hb_page-width {
+    max-width: 1290px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.annocement_bar {
+    background: #2F63A6;
+    width: 100%;
+    padding: 5.5px 0;
+}
+.hb_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.annocement_bar_telephone--number {
+    color: #ffffff;
+    font-family: sofia pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 5px;
+
+}
+.annocement_bar__telephone {
+    border-right:  1px solid #fff;
+    padding-right: 30px;
+}
+.annocement_bar__whatsapp {
+    padding-left: 30px;
+}
+.annocement_bar_whatsapp--number {
+    padding-left: 5px;
+    color: #ffffff;
+    font-family: sofia pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+.hb_header .hb_wrapper {
+    justify-content: space-between;
+    position: relative;
+}
+.hb_header_search {
+    border: 1px solid #2F63A6;
+    border-radius: 9px;
+    justify-content: space-between;
+    max-width: 365px;
+    flex: 365px;
+    padding: 3.5px;
+    border-radius: 4px;
+    margin-left: 16%;
+}
+.hb_header_search__bar {
+    width: 100%;
+    height: 100%;
+}
+.hb_header_search__bar input {
+    border: none;
+    outline: none;
+    font-family: sofia pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding-left: 13px;
+}
+.hb_header_search__bar input::placeholder {
+    color: #2F63A6; 
+    font-size: 14px;
+}
+.hb_header_mobile--nav-icon {
+    position: absolute;
+    left: -100%;
+    transition:all 0.4s ;
+}
+.hb_header_social__icons {
+    justify-content: space-between;
+    gap: 19px;
+}
+.hb_header__mobile--display {
+    display: none;
+}
+.hb_header__social--icons {
+    gap: 13px;
+}
+.hb_header__book--btn, 
+.normal--btn {
+    width: 225px;
+    height: 40px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    gap: 8px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+
+}
+.hb_header__book--btn--text {
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.plus-sign--red {
+    color: #E94C94;
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+
+}
+.hb_header__nav--item {
+    list-style: none;
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #2F63A6;
+    text-transform: capitalize;
+}
+.hb_header__nav--items {
+    gap: 49px;
+}
+.hb_title--red {
+    font-family: sofia pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #E94C94 !important;
+    text-transform: uppercase;
+}
+.hb_header .link {
+    display: block;
+    padding: 9px 0;
+}
+.highlight {
+    background-color: #DDE7F3;
+}
+.hb_btn--normal {
+    max-width: 216px;
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+.hb_footer {
+    background: linear-gradient(90deg, #3465A4 -6.7%, #1BB8B8 115.94%);
+    padding-top: 70px;
+}
+.hb_footer .hb_wrapper {
+    justify-content: space-between;
+    align-items: start;
+}
+.hb_footer__logo--img {
+    padding-bottom: 20px;
+    max-width: 164px;
+}
+.hb_footer__para {
+    padding-bottom: 28px;
+}
+.hb_footer__contact {
+    padding-bottom: 17px;
+    /* padding-right: 15px; */
+}
+.hb_footer__contact .icon  {
+    padding-right: 17px;
+}
+.hb_footer__logo--column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #fff;
+    max-width: 408px;
+    flex: 408px;
+    font-family: sofia pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.hb_footer__feature--heading {
+    font-family: sofia pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 13px;
+}
+.hb_footer__feature--link {
+    list-style-type: none;
+}
+.hb-link {
+    text-decoration: none;
+    font-family: sofia pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+
+}
+@media screen and (max-width:1260px) {
+    .hb_header__nav--items {
+        gap: 15px;
+    }
+    .hb_header__nav--item {
+        font-size: 16px;
+    }
+    .hb_header_search {
+        margin-left: 10%;
+        margin-right: 1%;
+    }
+}
+@media screen and (max-width:991px) {
+    .hb_header__nav--items {
+        gap: 10px;
+    }
+    .hb_header__nav--item {
+        font-size: 13px;
+    }
+    .hb_header_search {
+        margin-left: 0%;
+        margin-right: 1%;
+    }
+    .hb_header__book--btn--text {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:767px) {
+    .hb_header_mobile--nav-icon {
+        position: relative;
+        left: 0;
+    }
+    .hb_header_social__icons {
+        position: absolute;
+        left: -100%;
+    }
+    .hb_header__mobile--display {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+    .hb_packages__features {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .hb_testominial .hb_wrapper {
+        flex-direction: column;
+    }
+    .hb_values .hb_wrapper {
+        flex-direction: column;
+    }
+    .hb_footer .hb_wrapper {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

@@ -1,0 +1,69 @@
+.hb_story__hero .hb_page-width {
+    margin-right: 0;
+    position: relative;
+}
+.hb_story__hero .hb_wrapper {
+    margin-left: -6%;
+}
+.hb_story__hero {
+    background-color: #2F63A6;
+    margin-bottom: 50px;
+}
+.hb_story_hero__content {
+    color: #fff;
+    flex: 40%;
+    max-width: 40%;
+}
+.hb_story_hero__content--title {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    padding-bottom: 19px;
+    max-width: 463px;
+}
+.hb_story_hero__content--subtitle {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.hb_story_hero__content--para {
+    max-width: 463px;
+    font-family: Sofia Pro;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+.hb_story-hero__image {
+    flex: 60%;
+    width: 60%;
+}
+.hb_story_hero__badge {
+    position: absolute;
+    bottom: -30%;
+    right: -5%;
+    width: 190px;
+    height: 40px;
+    border-radius: 4px;
+    transform: rotate(-90deg);
+    background-color: #1BB8B8;
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hb_vision {
+    padding-bottom: 50px;
+}
