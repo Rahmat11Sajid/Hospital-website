@@ -141,6 +141,43 @@
     font-style: italic;
     font-display: swap;
 }
+@font-face {
+    font-family: 'PT Serif';
+    src: url('./PT_serif transfonter/PTSerif-Bold.woff2') format('woff2'),
+        url('./PT_serif transfonter/PTSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('./PT_serif transfonter/PTSerif-Italic.woff2') format('woff2'),
+        url('./PT_serif transfonter/PTSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('./PT_serif transfonter/PTSerif-BoldItalic.woff2') format('woff2'),
+        url('./PT_serif transfonter/PTSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('./PT_serif transfonter/PTSerif-Regular.woff2') format('woff2'),
+        url('./PT_serif transfonter/PTSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;

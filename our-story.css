@@ -47,7 +47,7 @@
 }
 .hb_story_hero__badge {
     position: absolute;
-    bottom: -30%;
+    bottom: 17%;
     right: -5%;
     width: 190px;
     height: 40px;
@@ -66,4 +66,108 @@
 }
 .hb_vision {
     padding-bottom: 50px;
+}
+.hb_vision .hb_wrapper {
+    gap: 80px;
+}
+.hb_vision .hb_vision__content--img {
+    max-width: 50%;
+    flex: 50%;
+}
+.hb_vision__content--title {
+    font-family: PT Serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #0E4080;
+    padding-bottom: 10px;
+}
+.hb_vision__content--para {
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #2F63A6;
+    /* max-width: 411px; */
+}
+.hb_vision__content {
+    align-items: self-start;
+    gap: 10px;
+}
+.hb_vision__content--text {
+    max-width: 411px;
+}
+.hb_product {
+    padding: 50px 0 70px;
+}
+.hb_product__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.hb_product__content--title {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    color: #0E4080;
+    max-width: 453px;
+    padding-bottom: 20px;
+}
+.hb_product__content--para {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #2F63A6;
+    max-width: 524px;
+}
+.hb_product_img {
+    flex: 50%;
+    max-width: 50%;
+    overflow: hidden;
+    max-height: 409px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hb_product .hb_wrapper {
+    flex-direction: column;
+    gap: 40px;
+}
+.hb_product__content--text {
+    flex: 50%;
+    max-width: 50%;
+}
+.hb_packages__features--items {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.hb_packages__features {
+    gap: 80px;
+}
+.hb_packages__features--items--text {
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #2F63A6;
+}
+.hb_packages__features .count {
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #0E4080;
+}
+.hb_packages {
+    padding-bottom: 70px;
 }
