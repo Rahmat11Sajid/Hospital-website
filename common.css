@@ -430,7 +430,12 @@ svg {
     line-height: 28px;
     text-align: left;
     color: #fff;
-
+}
+.hb_flex-column {
+    flex-direction: column;
+}
+.hb_mobile {
+    display: none;
 }
 @media screen and (max-width:1260px) {
     .hb_header__nav--items {
@@ -467,6 +472,12 @@ svg {
     .hb_header_social__icons {
         position: absolute;
         left: -100%;
+    }
+    .hb_header__nav--items {
+        display: none;
+    }
+    .hb_header .hb_wrapper {
+        padding: 14px 0;
     }
     .hb_header__mobile--display {
         display: flex;
