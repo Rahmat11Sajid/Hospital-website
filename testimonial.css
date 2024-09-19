@@ -67,6 +67,7 @@
     text-transform: capitalize;
     top: 73%;
     right: -5%;
+    transition: 1s ease-in-out;
 }
 .hb_testimonial__container {
     border-radius: 8px;
@@ -106,4 +107,15 @@
 }
 .hb_testimonial_section {
     padding-bottom: 80px;
+}
+@media screen and (max-width:767px) {
+    .hb_testimonial__container {
+       max-width: 80%;
+    }
+    .hb_testimonial--review {
+        max-width: 100%;
+    }
+    .hb_hero_banner__news-of-week-badge {
+        right: -10%;
+    }
 }
