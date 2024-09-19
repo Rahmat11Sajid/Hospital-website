@@ -1,6 +1,7 @@
 .hb_hero {
     padding-top: 50px;
     position: relative;
+    margin-bottom: 50px;
 }
 .hb_hero .hb_wrapper {
     flex-direction: column;
@@ -66,4 +67,43 @@
     text-transform: capitalize;
     top: 73%;
     right: -5%;
+}
+.hb_testimonial__container {
+    border-radius: 8px;
+    background-color: #2F63A6;
+    padding: 40px 24px;
+    max-width: 330px;
+    color: #fff;
+}
+.hb_testimonial__container .hb_flex {
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.hb_testimonial--review {
+    font-family: Sofia Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding-bottom: 6px;
+    max-width: 278px;
+}
+.hb_testimonial--name {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+}
+.hb_testimonial_section .hb_wrapper {
+    row-gap: 30px;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+.hb_flex-start {
+    align-self: flex-start;
+}
+.hb_testimonial_section {
+    padding-bottom: 80px;
 }
