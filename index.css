@@ -455,9 +455,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .hb_header__menu {
-        display: none;
-    }
+    
     .hb_hero_banner__news-of-week-badge {
         right: -9%;
     }

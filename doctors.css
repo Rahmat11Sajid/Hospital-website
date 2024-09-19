@@ -1,0 +1,255 @@
+.hb_doctor__hero {
+    padding: 60px 0;
+    text-align: center;
+}
+.hb_doctor_hero__content {
+    max-width: 773px;
+    padding-bottom: 40px;
+}
+.hb_doctor__hero .hb_wrapper {
+    flex-direction: column;
+}
+.hb_doctor_hero__content--subtitle {
+    text-align: center;
+}
+.hb_doctor_hero__title {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #0E4080;
+    padding-bottom: 30px;
+}
+.hb_doctor_hero__para {
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #2F63A6;
+}
+.hb_doctor_hero__section {
+    display: flex;
+    width: 100%;
+
+}
+.hb_doctor_hero__section--text {
+    background-color: #2F63A6;
+    padding: 60px 50px;
+    flex: 50%;
+    max-width: 50%;
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hb_doctor_hero__section--text p {
+    max-width: 474px;
+}
+.hb_doctor_hero__section--img {
+    flex: 50%;
+    max-width: 50%;
+}
+.hb_doctors {
+    padding-bottom: 50px;
+}
+.hb_doctors .hb_wrapper {
+    flex-direction: column;
+}
+.hb_doctors .hb_doctors__title {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.hb_doctors__title {
+    font-family: PT Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #0E4080;
+    max-width: 694px;
+   
+}
+.hb_doctors__filter {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.hb_doctors__filter--speciality {
+    border: 1px solid #DDE7F3;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 214px;
+}
+.hb_doctors__filter--text {
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #2F63A6;
+    padding-right: 10px;
+}
+
+.hb_doctors__filter--search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDE7F3;
+    border-radius: 4px;
+    padding: 2px 2px;
+    gap: 30px;
+}
+.hb_search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hb_search--input {
+    border: none;
+    outline: none;
+    color: #2F63A6;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    width: 249px;
+}
+.hb_search--input::placeholder {
+    color: #2F63A6;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.hb_doctors_profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+.hb_doctors_profiles__profile {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.hb_doctors__profile--image {
+    width: 300px;
+    height: 370px;
+    border-radius: 13px;
+    background: #DDE7F3;
+ }
+ .hb_doctors__profile--name {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #0E4080;
+    padding-top: 24px;
+    padding-bottom: 10px;
+
+ }
+ .hb_doctors__profile--designation {
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2F63A6;
+ }
+.hb_doctors__appointment {
+    padding: 50px 0;
+}
+.hb_doctors__appointment .hb_wrapper{
+    flex-direction: column;
+    gap: 40px;
+}
+.hb_doctors__appointment--para {
+    font-family: Sofia Pro;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #2F63A6;
+    max-width: 829px;
+}
+.hb_doctors__appointment--section {
+    border-radius: 6px;
+    background-color: #0E4080;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: #ffff;
+}
+.hb_doctors__appointment--text {
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.hb_doctors__appointment--btn {
+    border-radius: 4px;
+    position: relative;
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-left-radius: 50%; */
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #FFFFFF;
+    background-color: #1BB8B8;
+    padding: 8px 13px 8px 33px;
+    max-height: 32px;
+}
+.hb_doctors__appointment--icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 5px;
+    left: -14px;
+}
+.hb__appointment--contact-number {
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+ @media screen and (max-width:767px) {
+    .hb_doctor_hero__section {
+        flex-direction: column;
+    }
+    .hb_doctor_hero__section--text {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .hb_doctor_hero__section--img {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .hb_desktop-display {
+        display: none;
+    }
+ }
