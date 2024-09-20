@@ -1,0 +1,116 @@
+header {
+    margin-bottom: 40px;
+}
+.hb_hero-banner {
+    padding-bottom: 60px;
+}
+.hb_hero-banner .hb_wrapper {
+    justify-content: space-between;
+    gap: 24px;
+}
+.hb_hero__contact-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 70px 80px;
+    border-radius: 13px;
+    background-color: #DDE7F366;
+    flex: 40%;
+    width: 40%;
+}
+.hb_title {
+    font-family: PT Serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #0E4080;
+    padding-bottom: 50px;
+}
+.hb_title--red {
+    width: 100%;
+    text-align: center;
+}
+.hb_hero__contact-detail {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    padding-bottom: 16px;
+}
+.hb_hero--contact-number {
+    font-family: Sofia Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #0E4080;
+    max-width: 274px;
+}
+.hb_hero__map {
+    flex: 60%;
+    max-width: 60%;
+}
+.hb_contact-form {
+    padding-bottom: 50px;
+}
+.hb_contact-form__input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.hb_form__input {
+    border-radius: 4px;
+    border: 1px solid #2F63A6;
+}
+.hb_form__message input {
+    border: none;
+    outline: none;
+}
+.hb_form__input {
+    padding: 13px;
+    font-family: Sofia Pro;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    flex: 48%;
+    color: #2F63A6;
+}
+.hb_form__input::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #2F63A6;
+}
+
+.hb_form__message {
+    border-radius: 4px;
+    border: 1px solid #2F63A6;
+    padding: 13px;
+    width: 100%;
+    min-height: 160px;
+}
+.hb_form__message input::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #2F63A6;
+}
+
+@media screen and (max-width: 767px) {
+    .hb_hero-banner .hb_wrapper {
+        flex-wrap: wrap;
+    }
+    .hb_hero__map {
+        width: 100%;
+        max-width: unset;
+        flex: unset;
+    }
+    
+}
