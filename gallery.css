@@ -25,6 +25,8 @@
 .hb_gallery__content {
     flex: 30%;
     max-width: 30%;
+
+    transition: 0.3s ease-in-out;
 }
 .hb_gallery--img {
     border-radius: 8px;
@@ -47,4 +49,13 @@
 }
 .hb_pagination {
     padding-bottom: 50px;
+}
+@media screen and (max-width:767px){
+    .hb_gallery__content {
+        flex: 45%;
+        max-width: 45%;
+    }
+    .hb_gallery__section {
+        justify-content: space-between;
+    }
 }

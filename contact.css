@@ -7,13 +7,14 @@ header {
 .hb_hero-banner .hb_wrapper {
     justify-content: space-between;
     gap: 24px;
+    align-items: unset;
 }
 .hb_hero__contact-container {
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 70px 80px;
+    padding: 30px;
     border-radius: 13px;
     background-color: #DDE7F366;
     flex: 40%;
@@ -27,6 +28,7 @@ header {
     text-align: center;
     color: #0E4080;
     padding-bottom: 50px;
+    width: 100%;
 }
 .hb_title--red {
     width: 100%;
@@ -47,6 +49,10 @@ header {
     text-align: left;
     color: #0E4080;
     max-width: 274px;
+}
+.hb_hero--contact-icon svg{
+    width: 52px;
+    height: 32px;
 }
 .hb_hero__map {
     flex: 60%;
@@ -103,6 +109,11 @@ header {
     color: #2F63A6;
 }
 
+@media screen and (max-width: 1200px) {
+    .hb_title {
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 767px) {
     .hb_hero-banner .hb_wrapper {
         flex-wrap: wrap;
